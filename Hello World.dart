@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Projem',
       theme: ThemeData(
         primarySwatch: Colors.green,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home:
           Scaffold(appBar: AppBar(), body: Center(child: Text("Hello World"))),
